@@ -1,0 +1,138 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "4c015267-62b4-48f4-ad1c-3c2af69201d1"
+    html:
+      indent_size: 2
+    json:
+      indent_size: 2
+  "atom-material-ui":
+    compactTreeView: true
+    showTabIcons: true
+  "autocomplete-elixir":
+    elixirPath: "/usr/local/bin/elixir"
+  "autocomplete-flow":
+    pathToFlowExecutable: "/usr/local/bin/flow"
+  "autocomplete-plus": {}
+  "autocomplete-python":
+    useKite: false
+  "bracket-matcher":
+    autocompleteBrackets: false
+    autocompleteSmartQuotes: false
+  core:
+    disabledPackages: [
+      "autocomplete-snippets"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "daylight-ui"
+      "solarized-light-syntax"
+    ]
+  "daylight-ui":
+    layoutMode: "Compact"
+  editor:
+    autoIndentOnPaste: false
+    invisibles: {}
+    preferredLineLength: 120
+    scrollPastEnd: true
+    showIndentGuide: true
+    tabType: "soft"
+  emmet: {}
+  "exception-reporting":
+    userId: "99dc6508-c3c4-d203-4525-0dad415c414b"
+  "file-icons": {}
+  "file-watcher":
+    promptWhenFileHasChangedOnDisk: false
+  "flow-ide":
+    executablePath: "/usr/local/bin/flow"
+  "fuzzy-finder":
+    useAlternateScoring: true
+  "git-diff":
+    showIconsInEditorGutter: true
+  "language-babel": {}
+  linter:
+    errorPanelHeight: 130
+    showErrorPanel: false
+  "linter-eslint":
+    globalNodePath: "/usr/local"
+    lintHtmlFiles: true
+  "linter-flow":
+    executablePath: "/usr/local/bin/flow"
+  "linter-flow-plus":
+    pathToFlowExecutable: "/usr/local/bin/flow"
+  "linter-rubocop":
+    command: "/Users/paul/.rbenv/versions/2.3.0/bin/rubocop"
+  "linter-scss-lint":
+    executablePath: "/Users/paul/.rbenv/versions/2.3.0/bin/scss-lint"
+  "linter-slim":
+    executableDir: "/Users/paul/.rbenv/shims/slimrb"
+    rails: true
+  "merge-conflicts":
+    gitPath: "/usr/local/bin/git"
+  nuclide:
+    "nuclide-arcanist": {}
+    "nuclide-buck-files": {}
+    "nuclide-debugger-hhvm": {}
+    "nuclide-flow": {}
+    "nuclide-format-js": {}
+    "nuclide-hack": {}
+    "nuclide-health": {}
+    "nuclide-home":
+      showHome: false
+    "nuclide-ocaml": {}
+    "nuclide-output": {}
+  react:
+    disableAutoClose: true
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
+  "status-bar": {}
+  "vim-mode-plus":
+    clearHighlightSearchOnResetNormalMode: true
+    clearMultipleCursorsOnEscapeInsertMode: true
+    useClipboardAsDefaultRegister: true
+  welcome:
+    showOnStartup: false
+  whitespace: {}
+".ansi.text":
+  editor:
+    preferredLineLength: 120
+".basic.html.text":
+  editor:
+    preferredLineLength: 120
+".coffee.jsx.source":
+  editor:
+    preferredLineLength: 120
+".dockerfile.source":
+  editor:
+    preferredLineLength: 120
+".elm.source":
+  editor:
+    preferredLineLength: 120
+".hack.html.text":
+  editor:
+    preferredLineLength: 120
+".hackfragment.source":
+  editor:
+    preferredLineLength: 120
+".js.jsx.source":
+  editor:
+    preferredLineLength: 120
+".js.regexp.replacement.source":
+  editor:
+    preferredLineLength: 120
+".js.regexp.source":
+  editor:
+    preferredLineLength: 120
+".js.source":
+  editor:
+    preferredLineLength: 120
+".livescript.source":
+  editor:
+    preferredLineLength: 120
+".slim.text":
+  editor:
+    preferredLineLength: 120
