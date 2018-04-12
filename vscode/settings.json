@@ -1,0 +1,25 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "css.validate": false,
+  "editor.autoClosingBrackets": false,
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "Monaco",
+  "editor.fontSize": 14,
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  // Fixes an issue with the flowtype plugin
+  "javascript.validate.enable": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "telemetry.enableTelemetry": false,
+  "tslint.ignoreDefinitionFiles": false,
+  "vim.enableNeovim": true,
+  "vim.hlsearch": true,
+  "vim.useSystemClipboard": true,
+  "workbench.colorTheme": "Solarized Light",
+  "workbench.editor.enablePreview": false,
+  "workbench.iconTheme": "vscode-icons",
+  "editor.accessibilitySupport": "off",
+}
