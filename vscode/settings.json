@@ -1,7 +1,7 @@
 // Place your settings in this file to overwrite the default settings
 {
   "css.validate": false,
-  "editor.autoClosingBrackets": false,
+  "editor.autoClosingBrackets": "never",
   "editor.formatOnSave": true,
   "editor.fontFamily": "Monaco",
   "editor.fontSize": 14,
@@ -12,6 +12,7 @@
   // Fixes an issue with the flowtype plugin
   "javascript.validate.enable": false,
   "less.validate": false,
+  "prettier.requireConfig": true,
   "scss.validate": false,
   "telemetry.enableTelemetry": false,
   "tslint.ignoreDefinitionFiles": false,
@@ -22,4 +23,5 @@
   "workbench.editor.enablePreview": false,
   "workbench.iconTheme": "vscode-icons",
   "editor.accessibilitySupport": "off",
+  "workbench.startupEditor": "newUntitledFile",
 }

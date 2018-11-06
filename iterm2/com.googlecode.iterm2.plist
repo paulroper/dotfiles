@@ -14,6 +14,8 @@
 	<integer>0</integer>
 	<key>AppleSmoothFixedFontsSizeThreshold</key>
 	<integer>1</integer>
+	<key>AppleWindowTabbingMode</key>
+	<string>manual</string>
 	<key>AutoHideTmuxClientSession</key>
 	<false/>
 	<key>CheckTestRelease</key>
@@ -421,7 +423,6 @@
 		<string>13</string>
 		<string>14</string>
 		<string>15</string>
-		<string>16</string>
 		<string>18</string>
 		<string>24</string>
 		<string>36</string>
@@ -431,14 +432,14 @@
 		<string>96</string>
 		<string>144</string>
 		<string>288</string>
-		<string>17</string>
+		<string>16</string>
 	</array>
 	<key>NSFontPanelSizeSliderParams</key>
-	<string>1 0 100</string>
+	<string>2 0 100</string>
 	<key>NSNavLastRootDirectory</key>
 	<string>~/.config/iterm2</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
-	<string>{712, 459}</string>
+	<string>{712, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -454,7 +455,7 @@
 	gAKACoAN0xAJChEVGVdOUy5rZXlzoxITFIADgASABaMWFxiABoAHgAiACVpJZGVudGlm
 	aWVyVVdpZHRoVkhpZGRlblEwI0BowAAAAAAACNIhIiMkWiRjbGFzc25hbWVYJGNsYXNz
 	ZXNcTlNEaWN0aW9uYXJ5oiMlWE5TT2JqZWN00xAJCicrGaMSExSAA4AEgAWjLC0YgAuA
-	DIAIgAlRMSNAdCAAAAAAANIhIjM0Xk5TTXV0YWJsZUFycmF5ozM1JVdOU0FycmF5XxAP
+	DIAIgAlRMSNAdKAAAAAAANIhIjM0Xk5TTXV0YWJsZUFycmF5ozM1JVdOU0FycmF5XxAP
 	TlNLZXllZEFyY2hpdmVy0Tg5VUFycmF5gAEACAARABoAIwAtADIANwBGAEwAUQBcAGMA
 	ZgBoAGoAbABzAHsAfwCBAIMAhQCJAIsAjQCPAJEAnACiAKkAqwC0ALUAugDFAM4A2wDe
 	AOcA7gDyAPQA9gD4APwA/gEAAQIBBAEGAQ8BFAEjAScBLwFBAUQBSgAAAAAAAAIBAAAA
@@ -470,26 +471,44 @@
 	</data>
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
+	<key>NSToolbar Configuration Terminal Toolbar</key>
+	<dict>
+		<key>TB Display Mode</key>
+		<integer>1</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
+	<dict>
+		<key>TB Is Shown</key>
+		<integer>1</integer>
+	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
-	<string>1197 1383 445 77 -171 1050 1920 1080 </string>
+	<string>816 204 445 77 0 0 1680 1050 </string>
+	<key>NSWindow Frame Preferences</key>
+	<string>443 1859 606 456 -585 900 2560 1417 </string>
+	<key>NSWindow Frame SUStatusFrame</key>
+	<string>639 691 400 129 0 0 1680 1028 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>530 497 620 392 0 0 1680 1028 </string>
+	<string>530 494 620 392 0 0 1680 1028 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>600 317 796 473 0 0 1680 1050 </string>
-	<key>NSWindow Frame com.apple.typography_panel_DejaVuSansMonoForPowerlineNerdFontC-Book</key>
-	<string>175 1653 260 36 -171 1050 1920 1080 </string>
+	<string>253 350 918 485 0 0 1680 1050 </string>
+	<key>NSWindow Frame com.apple.typography_panel_Monaco</key>
+	<string>398 600 260 88 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>402 154 650 502 0 0 1680 1050 </string>
+	<string>555 276 650 502 0 0 1680 1050 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>864 350 650 502 0 0 1680 1028 </string>
+	<string>555 276 650 502 0 0 1680 1050 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>575 267 650 502 0 0 1680 1028 </string>
+	<string>280 247 650 502 0 0 1680 1050 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
-	<string>460 493 650 502 0 0 1680 1028 </string>
+	<string>272 1388 650 577 -707 1050 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
-	<string>473 402 650 502 0 0 1680 1050 </string>
-	<key>NSWindow Frame iTerm Window 5</key>
-	<string>254 450 650 577 0 0 1680 1050 </string>
+	<string>212 68 650 577 0 0 1680 1027 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1025,7 +1044,7 @@
 			<key>Name</key>
 			<string>Default</string>
 			<key>Non Ascii Font</key>
-			<string>InconsolataGoNerdFontC-Regular 15</string>
+			<string>InconsolataForPowerlineNerdFontC-Medium 15</string>
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Non-ASCII Ligatures</key>
@@ -1216,14 +1235,76 @@
 			<string>/Users/paul</string>
 		</dict>
 	</array>
+	<key>NoSyncConfirmBeta</key>
+	<true/>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
-	<string>3252CFE3-3C39-4835-B781-B4B9AD22DF9E</string>
+	<string>AB38B649-E79F-434E-9846-9610CF56319E</string>
+	<key>NoSyncLastTipTime</key>
+	<real>483912151.87111998</real>
 	<key>NoSyncPermissionToShowTip</key>
-	<false/>
+	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
-	<real>512639221.70222998</real>
+	<real>477566938.52140403</real>
+	<key>NoSyncTimeOfLastPromo</key>
+	<real>459763941.16251802</real>
+	<key>NoSyncTimeOfLastPromoDownload</key>
+	<real>477566099.025473</real>
+	<key>NoSyncTipsDisabled</key>
+	<true/>
+	<key>NoSyncTipsToNotShow</key>
+	<array>
+		<string>000</string>
+		<string>0000</string>
+		<string>0001</string>
+		<string>0002</string>
+		<string>0003</string>
+		<string>0004</string>
+		<string>0005</string>
+		<string>0006</string>
+		<string>0007</string>
+		<string>0008</string>
+		<string>0009</string>
+		<string>0010</string>
+		<string>0011</string>
+		<string>0012</string>
+		<string>0013</string>
+		<string>0014</string>
+		<string>0015</string>
+		<string>0016</string>
+		<string>0017</string>
+		<string>0018</string>
+		<string>0019</string>
+		<string>0020</string>
+		<string>0021</string>
+		<string>0022</string>
+		<string>0023</string>
+		<string>0024</string>
+		<string>0025</string>
+		<string>0026</string>
+		<string>0027</string>
+		<string>0028</string>
+		<string>0029</string>
+		<string>0030</string>
+		<string>0031</string>
+		<string>0032</string>
+		<string>0033</string>
+		<string>0034</string>
+		<string>0035</string>
+		<string>0036</string>
+		<string>0037</string>
+		<string>0038</string>
+		<string>0039</string>
+		<string>0040</string>
+		<string>0041</string>
+		<string>0042</string>
+		<string>0043</string>
+		<string>0044</string>
+		<string>0045</string>
+		<string>0046</string>
+		<string>0047</string>
+	</array>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -1276,7 +1357,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/paul.roper/.config/iterm2</string>
+	<string>/Users/paul/.config/iterm2</string>
 	<key>Print In Black And White</key>
 	<true/>
 	<key>PromptOnQuit</key>
@@ -1292,13 +1373,11 @@
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/testing.xml?shard=90</string>
+	<string>https://iterm2.com/appcasts/testing.xml?shard=98</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-08-18T07:47:04Z</date>
-	<key>SUSendProfileInfo</key>
-	<false/>
+	<date>2017-11-27T08:52:07Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
@@ -1345,9 +1424,11 @@
 	<string>/-+\~_.</string>
 	<key>findIgnoreCase_iTerm</key>
 	<true/>
+	<key>findMode_iTerm</key>
+	<integer>0</integer>
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.1.beta.5</string>
+	<string>3.1.5.beta.2</string>
 </dict>
 </plist>

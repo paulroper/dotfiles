@@ -12,13 +12,17 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'elixir-lang/vim-elixir'
 Plug 'gkz/vim-ls'
 Plug 'hashivim/vim-terraform'
+Plug 'leafgarland/typescript-vim'
 Plug 'mileszs/ack.vim'
 Plug 'mxw/vim-jsx'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'ryanoasis/vim-devicons'
+Plug 'rust-lang/rust.vim'
 Plug 'sbdchd/neoformat'
 Plug 'scrooloose/nerdtree'
+Plug 'sebastianmarkow/deoplete-rust'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'slashmili/alchemist.vim'
 Plug 'slim-template/vim-slim'
 Plug 'ternjs/tern_for_vim'
 Plug 'tpope/vim-commentary'
@@ -40,8 +44,16 @@ call plug#end()
 let g:deoplete#enable_at_startup = 1
 let g:deoplete#auto_complete_delay = 1
 
+" fix nvim-typescript
+" https://github.com/mhartington/nvim-typescript/issues/115
+let g:deoplete#num_processes = 1
+
 " complete paths from current buffer directory rather than pwd
 let g:deoplete#file#enable_buffer_path = 1
+
+" rust
+let g:deoplete#sources#rust#racer_binary='/Users/paul/.cargo/bin/racer'
+let g:deoplete#sources#rust#rust_source_path='/Users/paul/Repositories/rust/src'
 
 " auto-close scratch on leaving completion
 autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
@@ -62,8 +74,6 @@ let g:ale_lint_on_text_changed = 0
 let g:ale_open_list = 0
 
 let g:ale_javascript_flow_use_global = 1
-
-let g:ale_css_stylelint_options = '--config app/.stylelintrc'
 
 let g:ale_linters = {
 \  'javascript': ['eslint', 'flow'],
@@ -95,7 +105,7 @@ set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusl
 let g:airline_theme='solarized'
 let g:airline_powerline_fonts = 1
 
-let g:airline_section_error = '%{ALEGetStatusLine()}'
+let g:airline_section_error = "%{exists('*ALEGetStatusLine') ? ALEGetStatusLine() : ''}"
 
 """
 " ctrlp
