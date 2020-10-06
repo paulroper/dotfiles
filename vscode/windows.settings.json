@@ -1,0 +1,77 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "css.validate": false,
+  "editor.autoClosingBrackets": "never",
+  "editor.fontSize": 14,
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "javascript.validate.enable": true,
+  "less.validate": false,
+  "scss.validate": false,
+  "telemetry.enableTelemetry": false,
+  "tslint.ignoreDefinitionFiles": false,
+  "vim.enableNeovim": false,
+  "vim.hlsearch": true,
+  "vim.useSystemClipboard": true,
+  "workbench.editor.enablePreview": false,
+  "workbench.iconTheme": "vscode-icons",
+  "editor.accessibilitySupport": "off",
+  "workbench.startupEditor": "newUntitledFile",
+  "diffEditor.ignoreTrimWhitespace": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorTheme": "Solarized Light",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "yaml.format.enable": true,
+  "yaml.format.singleQuote": true,
+  "extensions.ignoreRecommendations": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "omnisharp.enableRoslynAnalyzers": true,
+  "omnisharp.enableEditorConfigSupport": true,
+  "swaggerViewer.previewInBrowser": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.singleQuote": true,
+  "terminal.external.windowsExec": "C:\\Program Files\\PowerShell\\6\\pwsh.exe",
+  "terminal.integrated.rendererType": "experimentalWebgl",
+  "eslint.migration.2_x": "off",
+  "html.autoClosingTags": false,
+  "javascript.autoClosingTags": false,
+  "typescript.autoClosingTags": false,
+  "terraform.indexing": {
+    "enabled": false
+  },
+  "terraform.languageServer": {
+    "external": true,
+    "args": [
+      "serve"
+    ]
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "yaml.schemaStore.enable": false,
+  "yaml.validate": false,
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "window.zoomLevel": 0,
+  "FSharp.useSdkScripts": true
+}
