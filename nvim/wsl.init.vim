@@ -32,6 +32,12 @@ Plug 'w0rp/ale'
 call plug#end()
 
 """
+" Python support
+"""
+let g:python3_host_prog='/home/paul/.pyenv/shims/python'
+" let g:python_host_prog='/home/paul/.pyenv/shims/python'
+
+"""
 " deoplete.nvim
 """
 
@@ -154,6 +160,8 @@ autocmd BufEnter * EnableStripWhitespaceOnSave
 " Editor Settings
 """
 
+let g:solarized_termcolors=256
+
 set background=light
 syntax enable
 colorscheme solarized
@@ -186,4 +194,3 @@ set mouse=a
 
 highlight ALEErrorSign ctermfg=Red ctermbg=LightGrey
 highlight ALEWarningSign ctermfg=3 ctermbg=LightGrey
-
