@@ -1,7 +1,8 @@
 source ~/.bashrc
 source ~/.git-prompt.sh
 
-source ~/repositories/mintty-colors-solarized/mintty-solarized-light.sh
+# Doens't seem to be needed anymore... Not sure why!
+# source ~/repositories/mintty-colors-solarized/mintty-solarized-light.sh
 
 # Reset
 End='\e[0m'       # Text Reset
@@ -27,12 +28,16 @@ export PS1="\[$Blue\]\w\[$End\]\[$Cyan\]\$(__git_ps1)\[$End\] \[$Blue\]\u\[$End\
 eval `dircolors /home/paul/repositories/dircolors-solarized/dircolors.ansi-light`
 
 if [ ! -S ~/.ssh/ssh_auth_sock ]; then
-  eval `ssh-agent`
-  ln -sf "$SSH_AUTH_SOCK" ~/.ssh/ssh_auth_sock
+	  eval `ssh-agent`
+	    ln -sf "$SSH_AUTH_SOCK" ~/.ssh/ssh_auth_sock
 fi
+
+export PATH=$PATH:~/.local/bin
+
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="/home/paul/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
 
 export SSH_AUTH_SOCK=~/.ssh/ssh_auth_sock
 ssh-add -l > /dev/null || ssh-add
-
-
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
